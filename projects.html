@@ -12,14 +12,17 @@
 <body>
     <header>
         <h1>Hi, I am Jialin Zhang.</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html" aria-current="page">Projects</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="travelling.html">Travelling</a></li>
-            </ul>
-        </nav>
+        <details class="menu" open>
+            <summary>Menu</summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="travelling.html">Travelling</a></li>
+                </ul>
+            </nav>
+        </details>
     </header>
 
     <main>
@@ -28,7 +31,7 @@
             <article>
                 <figure>
                     <picture>
-                        <img src="images/concert.jpg" alt="Concert Ticketing System" />
+                        <img src="images/concert.jpg" alt="Concert Ticketing System" loading="lazy" decoding="async" />
                     </picture>
                     <figcaption>Concert Ticketing System</figcaption>
                 </figure>
@@ -47,7 +50,7 @@
             <article>
                 <figure>
                     <picture>
-                        <img src="images/ros2-gif.gif" alt="AprilTag-based robot localization" />
+                        <img src="images/ros2-gif.gif" alt="AprilTag-based robot localization" loading="lazy" decoding="async" />
                     </picture>
                     <figcaption>AprilTag-Based Robot Localization</figcaption>
                 </figure>

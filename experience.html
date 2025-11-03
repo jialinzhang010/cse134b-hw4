@@ -11,14 +11,17 @@
 <body>
     <header>
         <h1>Hi, I am Jialin Zhang.</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="experience.html" aria-current="page">Experience</a></li>
-                <li><a href="travelling.html">Travelling</a></li>
-            </ul>
-        </nav>
+        <details class="menu" open>
+            <summary>Menu</summary>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="experience.html" aria-current="page">Experience</a></li>
+                    <li><a href="travelling.html">Travelling</a></li>
+                </ul>
+            </nav>
+        </details>
     </header>
 
     <main>
@@ -27,7 +30,7 @@
 
             <article>
                 <figure>
-                    <img src="images/amazon.png" alt="Amazon" />
+                    <img src="images/amazon.png" alt="Amazon" loading="lazy" decoding="async" />
                     <figcaption>Amazon</figcaption>
                 </figure>
                 <header>
@@ -43,7 +46,7 @@
 
             <article>
                 <figure>
-                    <img src="images/teradata.png" alt="Teradata" />
+                    <img src="images/teradata.png" alt="Teradata" loading="lazy" decoding="async" />
                     <figcaption>Teradata</figcaption>
                 </figure>
                 <header>
@@ -58,30 +61,7 @@
         </section>
     </main>
 
-    <section>
-        <h2>Contact form</h2>
-        <form action="#" method="post">
-            <fieldset>
-                <legend>Get in touch</legend>
-                <p>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required />
-                </p>
-                <p>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required />
-                </p>
-                <p>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4"></textarea>
-                </p>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
-            </fieldset>
-        </form>
 
-    </section>
 
     <footer>
         <ul>
